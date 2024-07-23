@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 140px;
+}
+h1 {
+  margin-bottom: 100px;
+  color: #574b4b;
+  font-size: 63px;
+}
+.highlights {
+  border: 1px solid gray;
+  border-left: none;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-bottom: 93px;
+}
+.image {
+  display: grid;
+  grid-template-rows: 105px 194px 150px;
+  border-right: 1px solid gray;
+  align-items: center;
+  justify-content: center;
+}
+
+.image p {
+  text-align: right;
+  /* width: 264px; */
+  padding: 40px;
+  /* justify-self: flex-end; */
+  /* padding: 0 30px; */
+  padding-left: 50%;
+  border-top: 1px solid rgb(204, 202, 181);
+}
+.image span {
+  font-size: 32px;
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(204, 202, 181);
+  padding-left: 40px;
+}
+.image img {
+  height: 193px;
+  justify-self: center;
+}
+
+.awards {
+  border-right: 1px solid rgb(204, 202, 181);
+  border-bottom: 1px solid rgb(204, 202, 181);
+}
+
+.award {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+}
+.awards h2 {
+  margin-left: 20px;
+  margin-top: 62px;
+  font-size: 31px;
+  color: #574b4b;
+  width: 200px;
+  margin-bottom: 25px;
+}
+.award span {
+  margin-left: 20px;
+}
+.awards p {
+  font-size: 18px;
+  margin-top: 62px;
+  width: 250px;
+  margin-left: 40px;
+}
+.par {
+  border-left: 1px solid rgb(204, 202, 181);
+  height: 370px;
+}
+.picture {
+  border-top: none;
+}
+.text {
+  height: 300px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid rgb(204, 202, 181);
+  display: flex;
+  gap: 100px;
+}
