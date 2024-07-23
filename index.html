@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./projects.css" />
     <link rel="stylesheet" href="./start.css" />
     <title>Nova Project</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <div id="header">
@@ -28,7 +30,7 @@
     <div id="section">
       <div class="container">
         <div class="section">
-          <h1>NOVA ARCHITECTS</h1>
+          <h1 data-aos-anchor-placement="bottom-bottom" data-aos-easing="ease-in-sine" data-aos="fade-up" data-aos-duration="2000" >NOVA ARCHITECTS</h1>
         </div>
         <hr />
         <div class="section_nav">
@@ -141,6 +143,9 @@
         </div>
       </div>
     </div>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
 
